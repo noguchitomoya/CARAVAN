@@ -49,6 +49,7 @@
     </div>
     <%= image_tag "img/forest.jpg", class:"single-image" %>
     <p class="single-text">
+    <%= link_to "編集", edit_blog_path(@blog) %>
       <%= @blog.body %>
     </p>
     <a href="#">編集</a>
