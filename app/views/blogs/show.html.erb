@@ -50,6 +50,7 @@
     <%= image_tag "img/forest.jpg", class:"single-image" %>
     <p class="single-text">
     <%= link_to "編集", edit_blog_path(@blog) %>
+    <%= link_to "削除", blog_path(@blog), method: :delete %>
       <%= @blog.body %>
     </p>
     <a href="#">編集</a>
